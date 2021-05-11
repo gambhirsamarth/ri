@@ -1,0 +1,47 @@
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: 25vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#our-story{
+    text-align: center;
+    color: lightgray;
+    font: 40px raleway, sans-serif;
+}
+#our-story-para{
+    color: white;
+    text-align: center;
+    line-height: 1.875em;
+    font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    
+}
+#footer{
+    color: white;
+    text-align: center;
+    line-height: 1.875em;
+    font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    position: relative;
+    width: 100%;
+
+}
+#logo_link{
+    font-size: 25px; position:absolute; top: 20px; left: 80px; color: white; text-decoration: none;
+    }
+    a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    }
+#header{
+    background-color: black; color: white;
+}
+
+
