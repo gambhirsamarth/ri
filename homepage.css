@@ -13,7 +13,7 @@ a{
     padding: 10px;
 }
 #sidelabel{
-    text-align: center; width: 700px; height: 500px; position:absolute; top: 200px; right: 70px; font-size: 80px; padding-top: 7cm;
+    text-align: center; width: 700px; height: 700px; position:absolute; top: 200px; right: 70px; font-size: 80px; padding-top: 7cm;
 }
 #latest_products{
     background-color:rgb(235, 252, 251);
@@ -22,7 +22,7 @@ a{
     position: relative;
     top: 800px;
     font-size: 35px;
-    height: 400px;
+    height: 450px;
     padding-top: 40px;
 
 }
