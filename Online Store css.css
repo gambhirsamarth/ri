@@ -23,37 +23,16 @@ html, body {
     background-color: rgb(24, 25, 29)
 }
 
-.nav ul {
-   overflow: auto;
-}
-
-.nav li {
-    float: left;
-    margin: 0px 0px;
-    list-style: none;
-}
-
-
-.nav a {
-  
-    padding: 0px 0px;
+#logo_link{
+    font-size: 25px; position:absolute; top: 20px; left: 80px; color: white; text-decoration: none;
+    }
+    a{
     color: white;
     text-decoration: none;
-}
-
-.main-nav {
-    text-align: left;
-    font-size: 15px;
-    font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
-}
-
-.main-nav li {
-    padding: 12px;
-}
-
-.nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
+    padding: 10px;
+    }
+#header{
+    background-color: black; color: white;
 }
 
 .main-header {
