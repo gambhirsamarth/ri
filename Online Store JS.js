@@ -27,7 +27,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase :)');
+    alert('You are being safely redirected to the payment gateway, please click on ok to confirm your purchase');
 	window.open("payment.html");
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
