@@ -186,5 +186,37 @@
                         ©2021 by ऋ.
                     </div>
 </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="chatbot.css">
+</head>
+<body>
 
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form class="form-container">
+    <h1 id="chat">ऋ</h1>
+
+    <label for="msg" id="chat"><b>Message us here!</b></label>
+    <textarea placeholder="Any thoughts or suggestions are welcome ..." name="msg" required></textarea>
+    
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
 </html>
